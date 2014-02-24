@@ -6,5 +6,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [ idx ] = get_max_indices( pairs )
-    idx = pairs(:,2);
+    idx = pairs(:,1);
 end

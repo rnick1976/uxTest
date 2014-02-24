@@ -6,5 +6,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [ idx ] = get_min_indices( pairs )
-    idx = pairs(:,1); 
+    idx = pairs(:,2); 
 end

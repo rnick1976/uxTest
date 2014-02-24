@@ -9,7 +9,7 @@ function [] = plot_data_with_features (data, indices)
    
     plot(data);
     hold on;
-    scatter(indices, markers,'fill');
+    scatter(indices, markers,'star');
     hold off;
     
 end
